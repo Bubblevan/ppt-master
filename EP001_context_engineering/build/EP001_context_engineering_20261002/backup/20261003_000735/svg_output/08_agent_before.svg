@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">第 6 轮调用前,Agent 已经积累了什么?</text>
+  </g>
+
+  <g id="round-timeline" data-pptx-bounds="60 150 320 444">
+    <text x="60" y="176" font-size="14" font-weight="bold" fill="#6B7280" letter-spacing="1">EXECUTION TIMELINE · 已执行 5 轮</text>
+    <line x1="84" y1="216" x2="84" y2="556" stroke="#C9CFD6" stroke-width="2"/>
+    <g id="round-1">
+      <circle cx="84" cy="216" r="10" fill="#FFFFFF" stroke="#8A939E" stroke-width="2"/>
+      <text x="110" y="210" font-size="14" font-weight="bold" fill="#5B6472">Round 1</text>
+      <text x="110" y="232" font-size="16" fill="#3A4148">搜索 login 相关代码</text>
+    </g>
+    <g id="round-2">
+      <circle cx="84" cy="288" r="10" fill="#FFFFFF" stroke="#8A939E" stroke-width="2"/>
+      <text x="110" y="282" font-size="14" font-weight="bold" fill="#5B6472">Round 2</text>
+      <text x="110" y="304" font-size="16" fill="#3A4148">检查 auth middleware</text>
+    </g>
+    <g id="round-3">
+      <circle cx="84" cy="360" r="10" fill="#FFFFFF" stroke="#8A939E" stroke-width="2"/>
+      <text x="110" y="354" font-size="14" font-weight="bold" fill="#5B6472">Round 3</text>
+      <text x="110" y="376" font-size="16" fill="#3A4148">错误 hypothesis A(已否定)</text>
+    </g>
+    <g id="round-4">
+      <circle cx="84" cy="432" r="10" fill="#FFFFFF" stroke="#8A939E" stroke-width="2"/>
+      <text x="110" y="426" font-size="14" font-weight="bold" fill="#5B6472">Round 4</text>
+      <text x="110" y="448" font-size="16" fill="#3A4148">运行测试</text>
+    </g>
+    <g id="round-5">
+      <circle cx="84" cy="504" r="10" fill="#FFFFFF" stroke="#8A939E" stroke-width="2"/>
+      <text x="110" y="498" font-size="14" font-weight="bold" fill="#5B6472">Round 5</text>
+      <text x="110" y="520" font-size="16" fill="#3A4148">确认真正的 stack trace</text>
+    </g>
+    <g id="round-current" fill="#0F766E">
+      <circle cx="84" cy="568" r="12" stroke="#0F766E" stroke-width="2"/>
+      <text x="110" y="560" font-size="14" font-weight="bold">CURRENT</text>
+      <text x="110" y="582" font-size="16" font-weight="bold">准备第 6 次模型调用</text>
+    </g>
+  </g>
+
+  <g id="agent-pool" data-pptx-bounds="420 150 800 440">
+    <text x="420" y="176" font-size="14" font-weight="bold" fill="#6B7280" letter-spacing="1">CANDIDATE POOL · 系统里已经存在</text>
+    <g id="pool-goal">
+      <rect x="420" y="196" width="384" height="46" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/target" x="436" y="209" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="468" y="225" font-size="16" fill="#3A4148">User goal — 修复登录 Bug 且测试不回归</text>
+    </g>
+    <g id="pool-agents-md">
+      <rect x="420" y="252" width="384" height="46" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/book-2" x="436" y="265" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="468" y="281" font-size="16" fill="#3A4148">AGENTS.md / repository policy</text>
+    </g>
+    <g id="pool-stack">
+      <rect x="420" y="308" width="384" height="46" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/bug" x="436" y="321" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="468" y="337" font-size="16" fill="#3A4148">Confirmed stack trace</text>
+    </g>
+    <g id="pool-dirty">
+      <rect x="420" y="364" width="384" height="46" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/file-text" x="436" y="377" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="468" y="393" font-size="16" fill="#3A4148">Dirty files / current Git state</text>
+    </g>
+    <g id="pool-authcode">
+      <rect x="420" y="420" width="384" height="46" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/lock" x="436" y="433" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="468" y="449" font-size="16" fill="#3A4148">Relevant auth code(检索得到)</text>
+    </g>
+    <g id="pool-failingtest">
+      <rect x="420" y="476" width="384" height="46" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/test-pipe" x="436" y="489" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="468" y="505" font-size="16" fill="#3A4148">Latest failing test</text>
+    </g>
+    <g id="pool-hypothesis">
+      <rect x="836" y="196" width="384" height="46" rx="4" fill="#FBFAF7" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/ban" x="852" y="209" width="20" height="20" fill="#B45309" stroke-width="2"/>
+      <text x="884" y="225" font-size="16" fill="#3A4148">Old failed hypothesis</text>
+    </g>
+    <g id="pool-shelloutput">
+      <rect x="836" y="252" width="384" height="46" rx="4" fill="#FBFAF7" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/terminal-2" x="852" y="265" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="884" y="281" font-size="16" fill="#3A4148">Repeated shell output</text>
+    </g>
+    <g id="pool-unrelated">
+      <rect x="836" y="308" width="384" height="46" rx="4" fill="#FBFAF7" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/folder" x="852" y="321" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="884" y="337" font-size="16" fill="#3A4148">Unrelated files(大量)</text>
+    </g>
+    <g id="pool-early">
+      <rect x="836" y="364" width="384" height="46" rx="4" fill="#FBFAF7" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/history" x="852" y="377" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="884" y="393" font-size="16" fill="#3A4148">Early exploration traces</text>
+    </g>
+    <g id="pool-memory-checkpoint">
+      <rect x="836" y="420" width="384" height="46" rx="4" fill="#FBFAF7" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/database" x="852" y="433" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="884" y="449" font-size="16" fill="#3A4148">Checkpoint / 长期 Memory(可能)</text>
+    </g>
+    <text x="836" y="508" font-size="14" fill="#6B7280">第 1–5 轮的对话与推理轨迹贯穿其间</text>
+  </g>
+
+  <g id="takeaway-band" data-pptx-bounds="60 610 1160 54" fill="#0F766E">
+    <rect x="60" y="612" width="1160" height="50" fill-opacity="0.07"/>
+    <text x="84" y="645" font-size="22" font-weight="bold">第 6 轮调用前 — 哪些进入 Model Context,哪些留在库中?</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">08 / 13</text>
+  </g>
+</svg>

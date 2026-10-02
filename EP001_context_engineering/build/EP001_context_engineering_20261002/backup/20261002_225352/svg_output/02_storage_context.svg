@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <defs>
+    <marker id="arrowInk" orient="auto" markerWidth="10" markerHeight="8" refX="8.5" refY="4" viewBox="0 0 10 8">
+      <path d="M0 0L10 4L0 8Z" fill="#5B6472"/>
+    </marker>
+    <marker id="arrowTeal" orient="auto" markerWidth="10" markerHeight="8" refX="8.5" refY="4" viewBox="0 0 10 8">
+      <path d="M0 0L10 4L0 8Z" fill="#0F766E"/>
+    </marker>
+  </defs>
+
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">Context 不是数据库里"存着的一切"</text>
+  </g>
+
+  <g id="page-statement" data-pptx-bounds="60 148 1160 92">
+    <text x="60" y="186" font-size="28" fill="#3A4148">Storage 回答"系统知道什么";<tspan x="60" dy="42">Context Engineering 回答"模型这一刻应该看到什么"。</tspan></text>
+  </g>
+
+  <g id="storage-field" data-pptx-bounds="60 262 546 336">
+    <rect x="60" y="276" width="540" height="300" fill="#ECEAE2" stroke="#D8D5CC" stroke-width="1"/>
+    <use data-icon="tabler-outline/server" x="84" y="294" width="22" height="22" fill="#6B7280" stroke-width="2"/>
+    <text x="116" y="311" font-size="14" font-weight="bold" fill="#6B7280" letter-spacing="1">STORAGE — 系统知道什么</text>
+    <g id="storage-node-logs">
+      <rect x="84" y="340" width="230" height="54" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/message-circle" x="100" y="356" width="22" height="22" fill="#8A939E" stroke-width="2"/>
+      <text x="134" y="373" font-size="18" fill="#3A4148">Conversation Logs</text>
+    </g>
+    <g id="storage-node-state">
+      <rect x="340" y="340" width="230" height="54" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/cpu" x="356" y="356" width="22" height="22" fill="#8A939E" stroke-width="2"/>
+      <text x="390" y="373" font-size="18" fill="#3A4148">Agent State</text>
+    </g>
+    <g id="storage-node-memory">
+      <rect x="84" y="414" width="230" height="54" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/brain" x="100" y="430" width="22" height="22" fill="#8A939E" stroke-width="2"/>
+      <text x="134" y="447" font-size="18" fill="#3A4148">Memory</text>
+    </g>
+    <g id="storage-node-workspace">
+      <rect x="340" y="414" width="230" height="54" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/folder" x="356" y="430" width="22" height="22" fill="#8A939E" stroke-width="2"/>
+      <text x="390" y="447" font-size="18" fill="#3A4148">Workspace</text>
+    </g>
+    <g id="storage-node-rag">
+      <rect x="84" y="488" width="230" height="54" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/search" x="100" y="504" width="22" height="22" fill="#8A939E" stroke-width="2"/>
+      <text x="134" y="521" font-size="18" fill="#3A4148">RAG / Search Index</text>
+    </g>
+    <g id="storage-node-checkpoint">
+      <rect x="340" y="488" width="230" height="54" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/archive" x="356" y="504" width="22" height="22" fill="#8A939E" stroke-width="2"/>
+      <text x="390" y="521" font-size="18" fill="#3A4148">Checkpoint</text>
+    </g>
+  </g>
+
+  <g id="selection-gate" data-pptx-bounds="610 286 262 244">
+    <line x1="610" y1="355" x2="654" y2="375" stroke="#5B6472" stroke-width="2" marker-end="url(#arrowInk)"/>
+    <line x1="610" y1="390" x2="654" y2="390" stroke="#5B6472" stroke-width="2" marker-end="url(#arrowInk)"/>
+    <line x1="610" y1="425" x2="654" y2="405" stroke="#5B6472" stroke-width="2" marker-end="url(#arrowInk)"/>
+    <g id="p02-selection-funnel" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="funnel" data-pptx-frame="664 330 128 116" fill="#0F766E" stroke="none" transform="rotate(-90 728 388)">
+      <path d="M 664.62 363.04 A 64 29 0 0 1 791.38 354.96 A 64 29 0 0 1 791.38 363.04 L 743.84 439.76 A 16 7.25 0 0 1 712.16 439.76 Z M 669.8 359 A 58.2 23.2 0 0 0 786.2 359 A 58.2 23.2 0 0 0 669.8 359 Z"/>
+    </g>
+    <text x="728" y="316" font-size="14" font-weight="bold" fill="#0F766E" letter-spacing="1" text-anchor="middle">SELECTION</text>
+    <text x="728" y="486" font-size="18" fill="#3A4148" text-anchor="middle">按当前任务筛选</text>
+    <line x1="795" y1="388" x2="869" y2="388" stroke="#0F766E" stroke-width="2.5" marker-end="url(#arrowTeal)"/>
+  </g>
+
+  <g id="working-set" data-pptx-bounds="874 262 346 240">
+    <rect x="878" y="276" width="342" height="170" rx="6" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <text x="898" y="312" font-size="14" font-weight="bold" fill="#0F766E" letter-spacing="1">MODEL-VISIBLE WORKING SET</text>
+    <text x="898" y="342" font-size="16" fill="#3A4148">模型这一刻看到的全部输入</text>
+    <rect x="898" y="366" width="88" height="48" rx="4" fill="#E7F3F0" stroke="#B5D6CF" stroke-width="1"/>
+    <text x="942" y="396" font-size="14" fill="#0F766E" text-anchor="middle">本轮目标</text>
+    <rect x="1002" y="366" width="88" height="48" rx="4" fill="#E7F3F0" stroke="#B5D6CF" stroke-width="1"/>
+    <text x="1046" y="396" font-size="14" fill="#0F766E" text-anchor="middle">最新证据</text>
+    <rect x="1106" y="366" width="88" height="48" rx="4" fill="#E7F3F0" stroke="#B5D6CF" stroke-width="1"/>
+    <text x="1150" y="396" font-size="14" fill="#0F766E" text-anchor="middle">相关规则</text>
+  </g>
+
+  <g id="boundary-note" data-pptx-bounds="60 630 980 44">
+    <rect x="60" y="640" width="3" height="24" fill="#B45309"/>
+    <text x="78" y="659" font-size="18" fill="#6B7280">Memory / RAG / History 只是 Context 的候选来源,不是 Context 本身</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">02 / 13</text>
+  </g>
+</svg>

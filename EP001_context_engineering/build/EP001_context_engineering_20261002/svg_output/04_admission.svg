@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">不是所有候选信息都有资格进入 Context</text>
+  </g>
+
+  <g id="admit-column" data-pptx-bounds="60 150 560 424">
+    <use data-icon="tabler-outline/check" x="60" y="160" width="20" height="20" fill="#15803D" stroke-width="2.5"/>
+    <text x="90" y="176" font-size="14" font-weight="bold" fill="#15803D" letter-spacing="1">ADMIT · 进入本轮</text>
+    <g id="card-policy">
+      <rect x="60" y="196" width="540" height="150" rx="6" fill="#FFFFFF" stroke="#B5D6CF" stroke-width="1.5"/>
+      <text x="84" y="244" font-size="20" font-weight="bold" fill="#1A1D1F">SYSTEM POLICY</text>
+      <rect x="84" y="272" width="112" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="140" y="290" font-size="14" fill="#5B6472" text-anchor="middle">来源 · Trusted</text>
+      <rect x="208" y="272" width="104" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="260" y="290" font-size="14" fill="#5B6472" text-anchor="middle">相关性 · 中</text>
+      <rect x="324" y="272" width="104" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="376" y="290" font-size="14" fill="#5B6472" text-anchor="middle">时效 · 稳定</text>
+      <text x="84" y="328" font-size="14" fill="#6B7280">不可覆盖的安全与审批边界 — 无论相关性高低都进入</text>
+      <rect x="486" y="212" width="96" height="28" rx="14" fill="#15803D" fill-opacity="0.12"/>
+      <text x="534" y="231" font-size="14" font-weight="bold" fill="#15803D" text-anchor="middle">ADMIT</text>
+    </g>
+    <g id="card-test-failure">
+      <rect x="60" y="366" width="540" height="150" rx="6" fill="#FFFFFF" stroke="#B5D6CF" stroke-width="1.5"/>
+      <text x="84" y="414" font-size="20" font-weight="bold" fill="#1A1D1F">Latest Test Failure</text>
+      <rect x="84" y="442" width="112" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="140" y="460" font-size="14" fill="#5B6472" text-anchor="middle">来源 · Tool</text>
+      <rect x="208" y="442" width="104" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="260" y="460" font-size="14" fill="#5B6472" text-anchor="middle">相关性 · 高</text>
+      <rect x="324" y="442" width="104" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="376" y="460" font-size="14" fill="#5B6472" text-anchor="middle">时效 · 新</text>
+      <text x="84" y="498" font-size="14" fill="#6B7280">直接决定下一步动作的最新证据</text>
+      <rect x="486" y="382" width="96" height="28" rx="14" fill="#15803D" fill-opacity="0.12"/>
+      <text x="534" y="401" font-size="14" font-weight="bold" fill="#15803D" text-anchor="middle">ADMIT</text>
+    </g>
+  </g>
+
+  <line id="column-divider" data-pptx-role="decoration" x1="640" y1="170" x2="640" y2="530" stroke="#DDD9CE" stroke-width="1"/>
+
+  <g id="drop-column" data-pptx-bounds="660 150 560 424">
+    <use data-icon="tabler-outline/x" x="660" y="160" width="20" height="20" fill="#6B7280" stroke-width="2.5"/>
+    <text x="690" y="176" font-size="14" font-weight="bold" fill="#6B7280" letter-spacing="1">DROP · 留在库中</text>
+    <g id="card-old-hypothesis">
+      <rect x="660" y="196" width="540" height="150" rx="6" fill="#FBFAF7" stroke="#C9CFD6" stroke-width="1.5"/>
+      <text x="684" y="244" font-size="20" font-weight="bold" fill="#1A1D1F">Old Hypothesis</text>
+      <rect x="684" y="272" width="112" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="740" y="290" font-size="14" fill="#5B6472" text-anchor="middle">来源 · History</text>
+      <rect x="808" y="272" width="104" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="860" y="290" font-size="14" fill="#5B6472" text-anchor="middle">相关性 · 高</text>
+      <rect x="924" y="272" width="130" height="26" rx="13" fill="#B45309" fill-opacity="0.12"/>
+      <text x="989" y="290" font-size="14" fill="#B45309" text-anchor="middle">状态 · 已被否定</text>
+      <text x="684" y="328" font-size="14" fill="#6B7280">曾经相关 — 但失效状态压过相关性</text>
+      <rect x="1086" y="212" width="90" height="28" rx="14" fill="#6B7280" fill-opacity="0.14"/>
+      <text x="1131" y="231" font-size="14" font-weight="bold" fill="#6B7280" text-anchor="middle">DROP</text>
+    </g>
+    <g id="card-readme">
+      <rect x="660" y="366" width="540" height="150" rx="6" fill="#FBFAF7" stroke="#C9CFD6" stroke-width="1.5"/>
+      <text x="684" y="414" font-size="20" font-weight="bold" fill="#1A1D1F">README text</text>
+      <rect x="684" y="442" width="112" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="740" y="460" font-size="14" fill="#5B6472" text-anchor="middle">来源 · Repo</text>
+      <rect x="808" y="442" width="104" height="26" rx="13" fill="#F0EEE7"/>
+      <text x="860" y="460" font-size="14" fill="#5B6472" text-anchor="middle">相关性 · 低</text>
+      <text x="684" y="498" font-size="14" fill="#6B7280">与当前 Bug 无关的一般性文档</text>
+      <rect x="1086" y="382" width="90" height="28" rx="14" fill="#6B7280" fill-opacity="0.14"/>
+      <text x="1131" y="401" font-size="14" font-weight="bold" fill="#6B7280" text-anchor="middle">DROP</text>
+    </g>
+  </g>
+
+  <g id="takeaway-band" data-pptx-bounds="60 596 1160 58" fill="#0F766E">
+    <rect x="60" y="598" width="1160" height="54" fill-opacity="0.07"/>
+    <text x="84" y="633" font-size="24" font-weight="bold">进入 Context 不是"有没有",而是:它对当前决策有没有用,而且是否可靠。</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">04 / 13</text>
+  </g>
+</svg>

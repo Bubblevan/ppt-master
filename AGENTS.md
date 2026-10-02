@@ -87,3 +87,46 @@ For Generate PPTX serial post-processing and export, follow [`generate-pptx.md`]
 - `docs/` — user-facing documentation (FAQ, installation, technical design, templates guide, audio narration).
 - `docs/rules/` — repo-wide style rules.
 - `projects/` — user project workspace.
+
+---
+
+## Local Workflow Notes (fork-specific, Bubblevan)
+
+> 本节是仓库所有者(Bubblevan)的本地工作流沉淀,不属于上游 ppt-master 规范;rebase 上游时如冲突,保本节内容。与上游 skill 权威文件冲突时以上游为准;本节只补充"这台机器 + 这套个人流程"的约定。
+
+### 工作区与环境(硬约定)
+
+- **所有工作区、项目、临时文件一律放本仓库内**(如 `EP001_context_engineering/`、`projects/`),绝不写 C 盘;产出物不要散落到 `Documents`。
+- **Python 统一用 `D:\MyLab\ppt-master\.venv\Scripts\python.exe`**(已按 `requirements.txt` 装好 skill 全部依赖)。本机 PATH 很乱:`python` 指向 hermes-agent 的 venv、`python3` 是失效的 Microsoft Store 占位符、`pip` 指向 Anaconda base——三者都不要用;skill 文档里的 `python3 ...` 命令一律替换成 `.venv` 的 python 绝对路径。
+- **PDF 导出与视觉验收**:本机装有 PowerPoint,用 COM 自动化(`SaveAs 32` 出 PDF,`Slide.Export` 逐页出 PNG)。视觉验收以 PowerPoint 渲染出的 PNG 为准,不要只看 SVG/XML。
+- 本仓库 remote `upstream` 指向我自己的 fork(Bubblevan/ppt-master),同步真正的上游时另加别的 remote 名。
+
+### 偏好管线:NotebookLM 原型 → PPT Master 正式版
+
+以后知识类视频 deck 大多走这条两段式流程:
+
+1. **NotebookLM 先生成一版原型 PDF**(约 8 页)。它只是 *visual reference / illustration source / 叙事 baseline*,**不是事实来源**;内容 authority 是研究 markdown(如 `LLM-Agent百科全书/M018`)+ episode spec。原型里无来源的固定百分比、绝对化结论**禁止**带入正式版。
+2. **PPT Master quick-generate 出 native 骨架**(explicit quick 意图,免交互):先冻结 13 页左右的 roster 和每页认知任务,保证结构与叙事完整、全 native 可编辑。
+3. **第二轮视觉吸收**(hybrid):从原型 PDF 裁插画作为独立 image asset,放进 `images/notebooklm_reference/`,配 `image_sources.json`(license_tier: no-attribution)。
+
+### NotebookLM 资产制作经验(踩过的坑)
+
+- 用 PyMuPDF 2x 渲染整页,再 PIL 裁切。**先渲染放大、量准文字 bbox 再裁**——EP001 连续三次因目测坐标出错(标签是双行的、比预估宽、机器底座被切掉);每次裁完立刻查看渲染图检查,不要批量盲裁。
+- **擦内嵌文字**用"同高度无字竖条横向拉伸"补丁(渐变背景不留痕),不要用纯色方块填充;克隆源本身可能含文字(曾把 'deep layer' 克隆成双份、把显示器碎片贴到别处)。
+- 允许:裁无关键文字的插画区、把插画当独立 asset、按参考图重构。禁止:整页截图当 slide 背景、用图中文字替代 native text、内嵌文字与 native text 重叠。**含关键教学文字的区域整块排除**(如放大镜里的"原文→压缩后"对比、右侧文字卡);纯装饰性块标签(箱子上的"几百页 PDF")可保留;有叙事语义的内嵌文字(如"测试已通过/测试失败"气泡)可保留但必须与 native 文本分区。
+- 并列结构的多张插画(如三张故障卡)**必须用完全相同的 crop 帧高**,否则破坏 parallel exposition。
+- 视觉节奏配比:visual-heavy 约 5 页(封面/开场架构/结尾前的机制页)+ native 技术页 7 页 + minimal 收尾 1 页,效果很好;不要每页都塞插画。
+
+### SVG/工具链细节(免得再查)
+
+- `image_sources.json` 必须是 `{"items": [...]}`,且 `filename` 是**裸文件名**(不能带 `notebooklm_reference/` 前缀,子目录只出现在 SVG 的 `href` 里);`analyze_images.py` 的参数是 images 子目录本身。
+- SVG 文本:一个段落 = 一个 `<text>` + 定位 `<tspan>`(兄弟 `<text>` 会被判段落拆分告警);**悬挂缩进的代码行必须逐行独立 `<text>`**(checker 明确要求)。写坐标前先跑 `text_measure.py calibrate` 并用速率表估宽,CJK+Latin 混排分行计算。
+- 根组 `data-pptx-bounds` = 子元素几何并集 + margin;相邻根组留 ≥2px;把箭头/连线归组时先算它的 bounds 会不会和邻居重叠(EP001 在 S06/S08/S11 栽过)。
+- preset 形状(funnel/chevron 等)用 `preset_shape_svg.py render-batch` 生成后整组可 transform(rotate/平移),但**永远不要手改 registry path**;漏同步 icon 会在 checker 报 "Project-local icon not found",单独 `icon_sync.py` 补。
+- **字体约定:全 deck 只用 Microsoft YaHei(文本)+ Consolas(代码/公式),不要混入宋体/SimSun**——引言、金句也用雅黑加粗(用户明确偏好,EP001 已返工)。
+- 深底页不投黑色阴影(用 hairline 或亮色描边);editorial 风格下阴影克制到 0(规则与线分隔)。
+- checker 剩余 warning 的取舍:sibling-paragraph 告警(代码块逐行)是可接受形态;noncanonical hoist 类建议顺手修(把共享 fill/字号提升到 `<g>`)。
+
+### 修订节奏
+
+改 SVG 后的固定循环:`svg_quality_checker.py --quick-generate --canonical-authoring --stage final --json` → `svg_to_pptx.py --quick-generate --with-notes` → COM 出 PDF + 渲染 PNG → 逐页看图。历史导出版本保留在 `exports/`,交付物在项目根目录用语义文件名(hybrid 版不覆盖 v1)。

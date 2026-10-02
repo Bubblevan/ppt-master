@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <defs>
+    <marker id="arrowTeal" orient="auto" markerWidth="10" markerHeight="8" refX="8.5" refY="4" viewBox="0 0 10 8">
+      <path d="M0 0L10 4L0 8Z" fill="#0F766E"/>
+    </marker>
+  </defs>
+
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">真正送进模型的,只是"当前工作的最小充分集"</text>
+  </g>
+
+  <g id="pool-stack" data-pptx-bounds="60 170 240 220">
+    <rect x="96" y="188" width="180" height="120" rx="6" fill="#ECEAE2" stroke="#D8D5CC" stroke-width="1"/>
+    <rect x="84" y="176" width="180" height="120" rx="6" fill="#E2DFD5" stroke="#C9C5B8" stroke-width="1"/>
+    <rect x="72" y="164" width="180" height="120" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <text x="76" y="206" font-size="14" font-weight="bold" fill="#6B7280">CANDIDATE POOL</text>
+    <text x="76" y="230" font-size="13" fill="#6B7280">第 5 轮后的全部候选</text>
+    <text x="76" y="342" font-size="14" fill="#6B7280">11 项候选材料</text>
+  </g>
+
+  <g id="compile-flow" data-pptx-bounds="300 260 84 60">
+    <text x="342" y="276" font-size="12" font-weight="bold" fill="#0F766E" letter-spacing="1" text-anchor="middle">COMPILE</text>
+    <line x1="306" y1="296" x2="374" y2="296" stroke="#0F766E" stroke-width="2.5" marker-end="url(#arrowTeal)"/>
+  </g>
+
+  <g id="working-set" data-pptx-bounds="388 150 832 300">
+    <rect x="392" y="158" width="828" height="284" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <text x="420" y="196" font-size="16" font-weight="bold" fill="#0F766E" letter-spacing="1">第 6 轮 WORKING SET — 本轮真正可见</text>
+    <g id="in-goal">
+      <use data-icon="tabler-outline/check" x="420" y="220" width="18" height="18" fill="#15803D" stroke-width="2.5"/>
+      <text x="450" y="235" font-size="16" fill="#1A1D1F">Current goal</text>
+    </g>
+    <g id="in-policy">
+      <use data-icon="tabler-outline/check" x="420" y="266" width="18" height="18" fill="#15803D" stroke-width="2.5"/>
+      <text x="450" y="281" font-size="16" fill="#1A1D1F">System / repository policy</text>
+    </g>
+    <g id="in-stack">
+      <use data-icon="tabler-outline/check" x="420" y="312" width="18" height="18" fill="#15803D" stroke-width="2.5"/>
+      <text x="450" y="327" font-size="16" fill="#1A1D1F">Confirmed stack trace</text>
+    </g>
+    <g id="in-authcode">
+      <use data-icon="tabler-outline/check" x="420" y="358" width="18" height="18" fill="#15803D" stroke-width="2.5"/>
+      <text x="450" y="373" font-size="16" fill="#1A1D1F">Relevant auth code</text>
+    </g>
+    <g id="in-dirty">
+      <use data-icon="tabler-outline/check" x="420" y="404" width="18" height="18" fill="#15803D" stroke-width="2.5"/>
+      <text x="450" y="419" font-size="16" fill="#1A1D1F">Dirty files / workspace state</text>
+    </g>
+    <g id="in-test">
+      <use data-icon="tabler-outline/check" x="830" y="220" width="18" height="18" fill="#15803D" stroke-width="2.5"/>
+      <text x="860" y="235" font-size="16" fill="#1A1D1F">Latest failing test</text>
+    </g>
+    <g id="in-conclusion">
+      <use data-icon="tabler-outline/check" x="830" y="266" width="18" height="18" fill="#15803D" stroke-width="2.5"/>
+      <text x="860" y="281" font-size="16" fill="#1A1D1F">Necessary previous conclusion</text>
+    </g>
+    <text x="830" y="330" font-size="14" fill="#6B7280">7 项 — 每一项都能改变第 6 轮的决策</text>
+    <text x="830" y="418" font-size="14" fill="#6B7280">必要历史以"已核验结论"的形式进入,而非全量对话</text>
+  </g>
+
+  <g id="out-row" data-pptx-bounds="60 470 1160 96">
+    <text x="60" y="496" font-size="14" font-weight="bold" fill="#6B7280" letter-spacing="1">OUT / DOWNWEIGHT · 留在库中或降权</text>
+    <rect x="60" y="512" width="200" height="38" rx="19" fill="#ECEAE2" stroke="#D8D5CC" stroke-width="1"/>
+    <text x="160" y="537" font-size="14" fill="#5B6472" text-anchor="middle">早期无关探索</text>
+    <rect x="276" y="512" width="200" height="38" rx="19" fill="#ECEAE2" stroke="#D8D5CC" stroke-width="1"/>
+    <text x="376" y="537" font-size="14" fill="#5B6472" text-anchor="middle">重复命令输出</text>
+    <rect x="492" y="512" width="200" height="38" rx="19" fill="#ECEAE2" stroke="#D8D5CC" stroke-width="1"/>
+    <text x="592" y="537" font-size="14" fill="#5B6472" text-anchor="middle">已否定的假设</text>
+    <rect x="708" y="512" width="200" height="38" rx="19" fill="#ECEAE2" stroke="#D8D5CC" stroke-width="1"/>
+    <text x="808" y="537" font-size="14" fill="#5B6472" text-anchor="middle">无关完整文件</text>
+    <rect x="924" y="512" width="216" height="38" rx="19" fill="#ECEAE2" stroke="#D8D5CC" stroke-width="1"/>
+    <text x="1032" y="537" font-size="14" fill="#5B6472" text-anchor="middle">过期工作区假设</text>
+  </g>
+
+  <g id="closing-quote" data-pptx-bounds="60 590 1160 62">
+    <rect x="60" y="600" width="4" height="36" fill="#0F766E"/>
+    <text x="84" y="628" font-size="28" font-weight="bold" fill="#1A1D1F">目标不是最少,而是在可靠性约束下保留当前决策的充分信息。</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">09 / 13</text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">历史越来越长怎么办?Compaction 是手段,不是答案</text>
+  </g>
+
+  <g id="compaction-illustration" data-pptx-bounds="60 148 650 330">
+    <image href="../images/notebooklm_reference/compaction_machine.png" x="60" y="152" width="640" height="292" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="60" y="152" width="640" height="292" fill="none" stroke="#DDD9CE" stroke-width="1"/>
+    <text x="156" y="466" font-size="14" font-weight="bold" fill="#6B7280" text-anchor="middle">Long History</text>
+    <text x="473" y="466" font-size="14" font-weight="bold" fill="#6B7280" text-anchor="middle">COMPRESSION · 压缩</text>
+  </g>
+
+  <g id="core-points" data-pptx-bounds="760 148 460 260">
+    <rect x="760" y="152" width="460" height="56" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+    <text x="780" y="187" font-size="15" fill="#1A1D1F"><tspan font-weight="bold">控制增长</tspan> — 压缩用于控制历史的持续增长</text>
+    <rect x="760" y="216" width="460" height="56" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+    <text x="780" y="251" font-size="15" fill="#1A1D1F"><tspan font-weight="bold">本身有损</tspan> — 摘要可能丢失关键事实与限定条件</text>
+    <rect x="760" y="280" width="460" height="56" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+    <text x="780" y="315" font-size="15" fill="#1A1D1F"><tspan font-weight="bold">不承担权威</tspan> — 权限与关键约束不能只靠未验证摘要维持</text>
+    <rect x="760" y="344" width="460" height="56" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+    <text x="780" y="379" font-size="15" fill="#1A1D1F"><tspan font-weight="bold">只是机制之一</tspan> — Compaction ≠ Context Engineering</text>
+  </g>
+
+  <g id="compaction-chain" data-pptx-bounds="60 486 1160 110">
+    <text x="60" y="506" font-size="16" fill="#6B7280">压缩产物只是候选 — 仍要重新经过 Context Compiler</text>
+    <g id="p12ch-candidate" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="60 520 380 70" fill="#ECEAE2" stroke="none">
+      <path d="M 60 520 L 405 520 L 440 555 L 405 590 L 60 590 L 95 555 Z"/>
+    </g>
+    <text x="250" y="561" font-size="14" font-weight="bold" fill="#5B6472" text-anchor="middle">Candidate Information</text>
+    <g id="p12ch-compiler" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="410 520 380 70" fill="#0F766E" stroke="none">
+      <path d="M 410 520 L 755 520 L 790 555 L 755 590 L 410 590 L 445 555 Z"/>
+    </g>
+    <text x="600" y="561" font-size="14" font-weight="bold" fill="#F4F1EA" text-anchor="middle">Context Compiler</text>
+    <g id="p12ch-context" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="760 520 380 70" fill="#1E2A32" stroke="none">
+      <path d="M 760 520 L 1105 520 L 1140 555 L 1105 590 L 760 590 L 795 555 Z"/>
+    </g>
+    <text x="950" y="561" font-size="14" font-weight="bold" fill="#BDE6DD" text-anchor="middle">Model-visible Context</text>
+  </g>
+
+  <g id="ep002-teaser" data-pptx-bounds="60 606 1160 48">
+    <line x1="100" y1="630" x2="420" y2="630" stroke="#C9C5B8" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="640" y="636" font-size="18" fill="#5B6472" text-anchor="middle">下一期:Agent 压缩上下文时,到底会丢掉什么?</text>
+    <line x1="860" y1="630" x2="1180" y2="630" stroke="#C9C5B8" stroke-width="1" stroke-dasharray="4,4"/>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">12 / 13</text>
+  </g>
+</svg>

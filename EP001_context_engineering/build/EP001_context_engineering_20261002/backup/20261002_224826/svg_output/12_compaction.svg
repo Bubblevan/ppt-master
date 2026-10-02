@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">历史越来越长怎么办?Compaction 是手段,不是答案</text>
+  </g>
+
+  <g id="compaction-chain" data-pptx-bounds="60 152 1160 148">
+    <text x="60" y="178" font-size="16" fill="#6B7280">Compaction 之后,材料仍要重新经过 Context Compiler</text>
+    <g id="p12-ch-history" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="60 200 250 90" fill="#8A939E" stroke="none">
+      <path d="M 60 200 L 265 200 L 310 245 L 265 290 L 60 290 L 105 245 Z"/>
+    </g>
+    <text x="190" y="251" font-size="14" font-weight="bold" fill="#F4F1EA" text-anchor="middle">Long History</text>
+    <g id="p12-ch-compress" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="276 200 250 90" fill="#B45309" stroke="none">
+      <path d="M 276 200 L 481 200 L 526 245 L 481 290 L 276 290 L 321 245 Z"/>
+    </g>
+    <text x="406" y="227" font-size="13" font-weight="bold" fill="#F4F1EA" text-anchor="middle">Summarize<tspan x="406" dy="20">Compress · Evict</tspan><tspan x="406" dy="20">Reload</tspan></text>
+    <g id="p12-ch-candidate" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="492 200 250 90" fill="#ECEAE2" stroke="none">
+      <path d="M 492 200 L 697 200 L 742 245 L 697 290 L 492 290 L 537 245 Z"/>
+    </g>
+    <text x="622" y="240" font-size="14" font-weight="bold" fill="#5B6472" text-anchor="middle">Candidate<tspan x="622" dy="22">Information</tspan></text>
+    <g id="p12-ch-compiler" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="708 200 250 90" fill="#0F766E" stroke="none">
+      <path d="M 708 200 L 913 200 L 958 245 L 913 290 L 708 290 L 753 245 Z"/>
+    </g>
+    <text x="838" y="251" font-size="14" font-weight="bold" fill="#F4F1EA" text-anchor="middle">Context Compiler</text>
+    <g id="p12-ch-context" data-pptx-authoring="preset" data-pptx-object="shape" data-pptx-prst="chevron" data-pptx-frame="924 200 250 90" fill="#1E2A32" stroke="none">
+      <path d="M 924 200 L 1129 200 L 1174 245 L 1129 290 L 924 290 L 969 245 Z"/>
+    </g>
+    <text x="1054" y="240" font-size="14" font-weight="bold" fill="#BDE6DD" text-anchor="middle">Model-visible<tspan x="1054" dy="22">Context</tspan></text>
+  </g>
+
+  <g id="core-points" data-pptx-bounds="60 330 1160 148">
+    <rect x="60" y="340" width="575" height="56" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+    <text x="80" y="375" font-size="16" fill="#1A1D1F"><tspan font-weight="bold">控制增长</tspan> — 压缩用于控制历史的持续增长</text>
+    <rect x="645" y="340" width="575" height="56" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+    <text x="665" y="375" font-size="16" fill="#1A1D1F"><tspan font-weight="bold">本身有损</tspan> — 摘要可能丢失关键事实与限定条件</text>
+    <rect x="60" y="412" width="575" height="56" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+    <text x="80" y="447" font-size="16" fill="#1A1D1F"><tspan font-weight="bold">不承担权威</tspan> — 权限与关键约束不能只靠未验证摘要维持</text>
+    <rect x="645" y="412" width="575" height="56" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+    <text x="665" y="447" font-size="16" fill="#1A1D1F"><tspan font-weight="bold">只是机制之一</tspan> — Compaction ≠ Context Engineering</text>
+  </g>
+
+  <g id="ep002-teaser" data-pptx-bounds="60 516 1160 64">
+    <line x1="100" y1="548" x2="420" y2="548" stroke="#C9C5B8" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="640" y="556" font-size="18" fill="#5B6472" text-anchor="middle">下一期:Agent 压缩上下文时,到底会丢掉什么?</text>
+    <line x1="860" y1="548" x2="1180" y2="548" stroke="#C9C5B8" stroke-width="1" stroke-dasharray="4,4"/>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">12 / 13</text>
+  </g>
+</svg>

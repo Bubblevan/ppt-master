@@ -1,0 +1,446 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "early",
+  "target": "C:\\Users\\bubblevan\\Documents\\Codex\\2026-09-29\\new-chat\\outputs\\EP001_context_engineering\\build\\EP001_context_engineering_20261002",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "ab264e8379a122258bbc8e7166bc2ee400c75e86941fc6622a4aca4698614e87",
+    "file_count": 5,
+    "files": [
+      {
+        "file": "01_hook.svg",
+        "sha256": "1df93879c3f50fcc5c306dc83d02072a824a75c80ab787dacd776deedae370d8"
+      },
+      {
+        "file": "02_storage_context.svg",
+        "sha256": "1935bf8dfbef41a02d35f0ffb33e7683efcdc037a57181e9d6117c6f62087023"
+      },
+      {
+        "file": "03_compiler.svg",
+        "sha256": "d0afd2fe7ffb9624a49f959dcecd0791a8235f320680e6cb8c2a8167c36f2719"
+      },
+      {
+        "file": "04_admission.svg",
+        "sha256": "a8e931dd6c4955e6aec052efd861de1b7922344383092e51ddd1d13a5cf191d3"
+      },
+      {
+        "file": "05_dimensions.svg",
+        "sha256": "4db9a6ba30837bc573ab671edc38750cc88347518b3f71e81642d3ac464dca4d"
+      }
+    ]
+  },
+  "summary": {
+    "total": 5,
+    "passed": 1,
+    "warnings": 3,
+    "errors": 1
+  },
+  "issue_types": {
+    "Other": 1
+  },
+  "categories": {
+    "blocking": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "02_storage_context.svg",
+          "message": "Project-local icon not found: tabler-outline/archive (expected under C:\\Users\\bubblevan\\Documents\\Codex\\2026-09-29\\new-chat\\outputs\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\icons)"
+        }
+      ]
+    },
+    "introduced": {
+      "count": 3,
+      "issues": [
+        {
+          "file": "01_hook.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): cover-keyline:fill None -> '#6FD5C4'; rect[39]:fill '#6FD5C4' -> None; text[40]:fill '#6FD5C4' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        },
+        {
+          "file": "03_compiler.svg",
+          "message": "<text> (x=60, y=118; text='Context Compiler:把\"系…') exceeds <g id=\"page-title\"> data-pptx-bounds on the horizontal axis: content (60.0, 84.0)-(1231.1, 132.0), container (60.0, 76.0)-(1220.0, 136.0), overflow horizontal 1.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈32.5 px per mixed char at 40px incl. headroom; ≈35 chars fit in 1160 px"
+        },
+        {
+          "file": "04_admission.svg",
+          "message": "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): takeaway-band:fill None -> '#0F766E'; rect[63]:fill '#0F766E' -> None; text[64]:fill '#0F766E' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 5,
+    "totals": {
+      "text_elements": 119,
+      "image_placements": 0,
+      "icons": 18,
+      "svg_geometry_elements": 103,
+      "preset_shapes": 1,
+      "page_frame_elements": 6,
+      "marker_uses": 6,
+      "inline_emphasis_runs": 5,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 4,
+      "presets": 1,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 2,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": null,
+    "geometry_elements": {
+      "circle": 0,
+      "ellipse": 0,
+      "line": 21,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 82
+    },
+    "preset_names": {
+      "funnel": 1
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_hook.svg",
+      "path": "C:\\Users\\bubblevan\\Documents\\Codex\\2026-09-29\\new-chat\\outputs\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\01_hook.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): cover-keyline:fill None -> '#6FD5C4'; rect[39]:fill '#6FD5C4' -> None; text[40]:fill '#6FD5C4' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 14,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "1df93879c3f50fcc5c306dc83d02072a824a75c80ab787dacd776deedae370d8"
+    },
+    {
+      "file": "02_storage_context.svg",
+      "path": "C:\\Users\\bubblevan\\Documents\\Codex\\2026-09-29\\new-chat\\outputs\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\02_storage_context.svg",
+      "exists": true,
+      "errors": [
+        "Project-local icon not found: tabler-outline/archive (expected under C:\\Users\\bubblevan\\Documents\\Codex\\2026-09-29\\new-chat\\outputs\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\icons)"
+      ],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 7,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 14,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 1,
+            "preset_names": {
+              "funnel": 1
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 4
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 1
+      },
+      "passed": false,
+      "source_sha256": "1935bf8dfbef41a02d35f0ffb33e7683efcdc037a57181e9d6117c6f62087023"
+    },
+    {
+      "file": "03_compiler.svg",
+      "path": "C:\\Users\\bubblevan\\Documents\\Codex\\2026-09-29\\new-chat\\outputs\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\03_compiler.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "<text> (x=60, y=118; text='Context Compiler:把\"系…') exceeds <g id=\"page-title\"> data-pptx-bounds on the horizontal axis: content (60.0, 84.0)-(1231.1, 132.0), container (60.0, 76.0)-(1220.0, 136.0), overflow horizontal 1.0%, vertical 0.0% (error above 5%); expand the root module bounds into available non-overlapping space; otherwise reflow the text; ≈32.5 px per mixed char at 40px incl. headroom; ≈35 chars fit in 1160 px"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 8,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 19,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 12,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "d0afd2fe7ffb9624a49f959dcecd0791a8235f320680e6cb8c2a8167c36f2719"
+    },
+    {
+      "file": "04_admission.svg",
+      "path": "C:\\Users\\bubblevan\\Documents\\Codex\\2026-09-29\\new-chat\\outputs\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\04_admission.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Noncanonical compact authoring: Authoring SVG contains noncanonical or redundant inherited style declarations (3 change(s)); examples (group:attr None -> value hoists the shared value onto that group; child:attr value -> None drops the copy the child now inherits): takeaway-band:fill None -> '#0F766E'; rect[63]:fill '#0F766E' -> None; text[64]:fill '#0F766E' -> None (advisory; normalize with `python3 scripts/compact_svg_styles.py <svg_output> --inplace`, re-stamp pages that carry Chart/Table fallbacks, and rerun the final gate, or leave the explicit form)"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 29,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 22,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 29,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "a8e931dd6c4955e6aec052efd861de1b7922344383092e51ddd1d13a5cf191d3"
+    },
+    {
+      "file": "05_dimensions.svg",
+      "path": "C:\\Users\\bubblevan\\Documents\\Codex\\2026-09-29\\new-chat\\outputs\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\05_dimensions.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 30,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 13,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 30,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "4db9a6ba30837bc573ab671edc38750cc88347518b3f71e81642d3ac464dca4d"
+    }
+  ]
+}

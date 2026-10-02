@@ -1,0 +1,940 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "b11a08a8690a718d092a660749adec7344bce6ce4a6138e97f32db49cb033227",
+    "file_count": 13,
+    "files": [
+      {
+        "file": "01_hook.svg",
+        "sha256": "2d8c6d8c86119f251dd6c45a3ce4ada533e9f52733b28a86aec1d26dbf311cc4"
+      },
+      {
+        "file": "02_storage_context.svg",
+        "sha256": "7f1e6d4bed3a5fbe49c14b7c3ff1e8a98da78044675e16012225328bcb7db2ba"
+      },
+      {
+        "file": "03_compiler.svg",
+        "sha256": "2d4fcedd3ecbaa0cb7ffdb1b777bbec5d72e029cf245c143690166718b8cc0d0"
+      },
+      {
+        "file": "04_admission.svg",
+        "sha256": "0145069ed32497cd4e9a612ec36cf6d3a115f7f4c11010ab186fe88881b3e1a5"
+      },
+      {
+        "file": "05_dimensions.svg",
+        "sha256": "4db9a6ba30837bc573ab671edc38750cc88347518b3f71e81642d3ac464dca4d"
+      },
+      {
+        "file": "06_authority.svg",
+        "sha256": "d0879cf1059abfb7d69c40372aa06ad7e078a46abbb83c163c1665565e9c62dc"
+      },
+      {
+        "file": "07_budget.svg",
+        "sha256": "3a7730ce76e3285d456eb80852a5b82a158ff2b14c8f8d296c726a035f23d6e8"
+      },
+      {
+        "file": "08_agent_before.svg",
+        "sha256": "0d177e86e8935e85f881b1be884d47dd1edec0fecaa65e50663f98b900a21736"
+      },
+      {
+        "file": "09_agent_after.svg",
+        "sha256": "6b0c826ed912fd5efae5d2946adb5622f33325f2623f13ffd182daf9c4937fc4"
+      },
+      {
+        "file": "10_bad_good.svg",
+        "sha256": "41b24245deb45979d4fab16fa174bc4e6be2038dd73daa33f05302da28ed84d8"
+      },
+      {
+        "file": "11_failures.svg",
+        "sha256": "452ecbe6475318f2c039cdc284190ed2d8b95b6c8b4862c6279b7c8a49ef853b"
+      },
+      {
+        "file": "12_compaction.svg",
+        "sha256": "a0057a1a96cf128917eddc073a57fe0dd56ecd0f139c20708f94385d0d2ebb45"
+      },
+      {
+        "file": "13_mental_model.svg",
+        "sha256": "d5bc1bf9a2e633bd927e1b98636d25772fcbe50ca4cf02ac9466da03e57038c7"
+      }
+    ]
+  },
+  "summary": {
+    "total": 13,
+    "passed": 12,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "13_mental_model.svg",
+          "message": "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"append-block\"> x=124.0, y=296.0..330.0, 2 lines; <g id=\"compile-block\"> x=764.0, y=290.0..354.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 13,
+    "totals": {
+      "text_elements": 267,
+      "image_placements": 7,
+      "icons": 34,
+      "svg_geometry_elements": 194,
+      "preset_shapes": 3,
+      "page_frame_elements": 15,
+      "marker_uses": 7,
+      "inline_emphasis_runs": 9,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 5,
+      "icons": 8,
+      "presets": 1,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 3,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": null,
+    "geometry_elements": {
+      "circle": 6,
+      "ellipse": 0,
+      "line": 40,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 148
+    },
+    "preset_names": {
+      "chevron": 3
+    },
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": [
+      0.0299,
+      0.2496
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_hook.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\01_hook.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 1,
+            "files": [
+              "hook_overloaded_context.png"
+            ],
+            "max_frame_share": 0.2496
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "2d8c6d8c86119f251dd6c45a3ce4ada533e9f52733b28a86aec1d26dbf311cc4"
+    },
+    {
+      "file": "02_storage_context.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\02_storage_context.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "storage_working_set.png"
+            ],
+            "max_frame_share": 0.2383
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "7f1e6d4bed3a5fbe49c14b7c3ff1e8a98da78044675e16012225328bcb7db2ba"
+    },
+    {
+      "file": "03_compiler.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\03_compiler.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 25,
+          "images": {
+            "placements": 1,
+            "files": [
+              "context_compiler_machine.png"
+            ],
+            "max_frame_share": 0.0299
+          },
+          "icons": 8,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 20,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 12,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 25,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "2d4fcedd3ecbaa0cb7ffdb1b777bbec5d72e029cf245c143690166718b8cc0d0"
+    },
+    {
+      "file": "04_admission.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\04_admission.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 29,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 22,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 29,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "0145069ed32497cd4e9a612ec36cf6d3a115f7f4c11010ab186fe88881b3e1a5"
+    },
+    {
+      "file": "05_dimensions.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\05_dimensions.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 30,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 13,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 30,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "4db9a6ba30837bc573ab671edc38750cc88347518b3f71e81642d3ac464dca4d"
+    },
+    {
+      "file": "06_authority.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\06_authority.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 15,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "d0879cf1059abfb7d69c40372aa06ad7e078a46abbb83c163c1665565e9c62dc"
+    },
+    {
+      "file": "07_budget.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\07_budget.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "3a7730ce76e3285d456eb80852a5b82a158ff2b14c8f8d296c726a035f23d6e8"
+    },
+    {
+      "file": "08_agent_before.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\08_agent_before.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 30,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 11,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 14,
+              "circle": 6,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 30,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "0d177e86e8935e85f881b1be884d47dd1edec0fecaa65e50663f98b900a21736"
+    },
+    {
+      "file": "09_agent_after.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\09_agent_after.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 7,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 12,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "6b0c826ed912fd5efae5d2946adb5622f33325f2623f13ffd182daf9c4937fc4"
+    },
+    {
+      "file": "10_bad_good.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\10_bad_good.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 4,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 2,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "41b24245deb45979d4fab16fa174bc4e6be2038dd73daa33f05302da28ed84d8"
+    },
+    {
+      "file": "11_failures.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\11_failures.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 3,
+            "files": [
+              "failure_authority.png",
+              "failure_noise.png",
+              "failure_staleness.png"
+            ],
+            "max_frame_share": 0.0978
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 11,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "452ecbe6475318f2c039cdc284190ed2d8b95b6c8b4862c6279b7c8a49ef853b"
+    },
+    {
+      "file": "12_compaction.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\12_compaction.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 1,
+            "files": [
+              "compaction_machine.png"
+            ],
+            "max_frame_share": 0.2028
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 4,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 3,
+            "preset_names": {
+              "chevron": 3
+            },
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "a0057a1a96cf128917eddc073a57fe0dd56ecd0f139c20708f94385d0d2ebb45"
+    },
+    {
+      "file": "13_mental_model.svg",
+      "path": "D:\\MyLab\\ppt-master\\EP001_context_engineering\\build\\EP001_context_engineering_20261002\\svg_output\\13_mental_model.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 2 paragraph-like line run(s) split across sibling <text> elements (<g id=\"append-block\"> x=124.0, y=296.0..330.0, 2 lines; <g id=\"compile-block\"> x=764.0, y=290.0..354.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 3,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas",
+          "Microsoft YaHei"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "d5bc1bf9a2e633bd927e1b98636d25772fcbe50ca4cf02ac9466da03e57038c7"
+    }
+  ]
+}

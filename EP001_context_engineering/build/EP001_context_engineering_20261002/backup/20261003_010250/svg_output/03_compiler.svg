@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <defs>
+    <marker id="arrowInk" orient="auto" markerWidth="10" markerHeight="8" refX="8.5" refY="4" viewBox="0 0 10 8">
+      <path d="M0 0L10 4L0 8Z" fill="#5B6472"/>
+    </marker>
+    <marker id="arrowTeal" orient="auto" markerWidth="10" markerHeight="8" refX="8.5" refY="4" viewBox="0 0 10 8">
+      <path d="M0 0L10 4L0 8Z" fill="#0F766E"/>
+    </marker>
+  </defs>
+
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">Context Compiler:把系统知道的东西编译成下一步输入</text>
+  </g>
+
+  <g id="candidate-pool" data-pptx-bounds="60 150 220 480">
+    <text x="60" y="176" font-size="14" font-weight="bold" fill="#6B7280" letter-spacing="1">CANDIDATE POOL · 候选</text>
+    <g id="pool-policy">
+      <rect x="60" y="196" width="220" height="44" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/shield-lock" x="74" y="208" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="106" y="224" font-size="16" fill="#3A4148">System / Policy</text>
+    </g>
+    <g id="pool-task">
+      <rect x="60" y="248" width="220" height="44" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/target" x="74" y="260" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="106" y="276" font-size="16" fill="#3A4148">Current Task</text>
+    </g>
+    <g id="pool-state">
+      <rect x="60" y="300" width="220" height="44" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/cpu" x="74" y="312" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="106" y="328" font-size="16" fill="#3A4148">Agent State</text>
+    </g>
+    <g id="pool-history">
+      <rect x="60" y="352" width="220" height="44" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/history" x="74" y="364" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="106" y="380" font-size="16" fill="#3A4148">Recent History</text>
+    </g>
+    <g id="pool-tools">
+      <rect x="60" y="404" width="220" height="44" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/terminal-2" x="74" y="416" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="106" y="432" font-size="16" fill="#3A4148">Tool Results</text>
+    </g>
+    <g id="pool-evidence">
+      <rect x="60" y="456" width="220" height="44" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/search" x="74" y="468" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="106" y="484" font-size="16" fill="#3A4148">Retrieved Evidence</text>
+    </g>
+    <g id="pool-memory">
+      <rect x="60" y="508" width="220" height="44" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/brain" x="74" y="520" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="106" y="536" font-size="16" fill="#3A4148">Memory</text>
+    </g>
+    <g id="pool-workspace">
+      <rect x="60" y="560" width="220" height="44" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <use data-icon="tabler-outline/folder" x="74" y="572" width="20" height="20" fill="#8A939E" stroke-width="2"/>
+      <text x="106" y="588" font-size="16" fill="#3A4148">Workspace State</text>
+    </g>
+  </g>
+
+  <g id="pool-merge" data-pptx-bounds="282 196 96 424">
+    <line x1="282" y1="218" x2="308" y2="218" stroke="#B9C0C8" stroke-width="1.5"/>
+    <line x1="282" y1="270" x2="308" y2="270" stroke="#B9C0C8" stroke-width="1.5"/>
+    <line x1="282" y1="322" x2="308" y2="322" stroke="#B9C0C8" stroke-width="1.5"/>
+    <line x1="282" y1="374" x2="308" y2="374" stroke="#B9C0C8" stroke-width="1.5"/>
+    <line x1="282" y1="426" x2="308" y2="426" stroke="#B9C0C8" stroke-width="1.5"/>
+    <line x1="282" y1="478" x2="308" y2="478" stroke="#B9C0C8" stroke-width="1.5"/>
+    <line x1="282" y1="530" x2="308" y2="530" stroke="#B9C0C8" stroke-width="1.5"/>
+    <line x1="282" y1="582" x2="308" y2="582" stroke="#B9C0C8" stroke-width="1.5"/>
+    <line x1="310" y1="218" x2="310" y2="582" stroke="#8A939E" stroke-width="2"/>
+    <line x1="310" y1="400" x2="370" y2="400" stroke="#5B6472" stroke-width="2.5" marker-end="url(#arrowInk)"/>
+  </g>
+
+  <g id="compiler" data-pptx-bounds="378 150 448 480">
+    <rect x="396" y="196" width="364" height="380" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <text x="578" y="232" font-size="14" font-weight="bold" fill="#0F766E" letter-spacing="1" text-anchor="middle">CONTEXT COMPILER</text>
+    <g id="compiler-machinery">
+      <image href="../images/notebooklm_reference/context_compiler_machine.png" x="408" y="244" width="340" height="81" preserveAspectRatio="xMidYMid meet"/>
+      <rect x="408" y="244" width="340" height="81" fill="none" stroke="#DDD9CE" stroke-width="1"/>
+    </g>
+    <g id="compiler-step-filter">
+      <rect x="420" y="340" width="316" height="44" rx="4" fill="#F0EEE7"/>
+      <text x="436" y="368" font-size="16" fill="#1A1D1F"><tspan font-family="Consolas" fill="#0F766E">01</tspan> FILTER — 筛掉无关与无权材料</text>
+    </g>
+    <g id="compiler-step-rank">
+      <rect x="420" y="392" width="316" height="44" rx="4" fill="#F0EEE7"/>
+      <text x="436" y="420" font-size="16" fill="#1A1D1F"><tspan font-family="Consolas" fill="#0F766E">02</tspan> RANK — 按相关度与权威排序</text>
+    </g>
+    <g id="compiler-step-budget">
+      <rect x="420" y="444" width="316" height="44" rx="4" fill="#F0EEE7"/>
+      <text x="436" y="472" font-size="16" fill="#1A1D1F"><tspan font-family="Consolas" fill="#0F766E">03</tspan> BUDGET — 在 token 预算内取舍</text>
+    </g>
+    <g id="compiler-step-assemble">
+      <rect x="420" y="496" width="316" height="44" rx="4" fill="#F0EEE7"/>
+      <text x="436" y="524" font-size="16" fill="#1A1D1F"><tspan font-family="Consolas" fill="#0F766E">04</tspan> ASSEMBLE — 编码为本轮输入</text>
+    </g>
+    <text x="578" y="560" font-size="14" fill="#6B7280" text-anchor="middle">每次模型调用运行一次,不是持久记忆</text>
+    <line x1="762" y1="405" x2="822" y2="405" stroke="#0F766E" stroke-width="3" marker-end="url(#arrowTeal)"/>
+  </g>
+
+  <g id="model-context-out" data-pptx-bounds="826 150 394 480">
+    <text x="826" y="176" font-size="14" font-weight="bold" fill="#0F766E" letter-spacing="1">MODEL-VISIBLE CONTEXT</text>
+    <rect x="826" y="196" width="394" height="240" rx="8" fill="#1E2A32"/>
+    <text x="850" y="236" font-size="14" font-weight="bold" fill="#6FD5C4" letter-spacing="1">本轮推理的工作集</text>
+    <rect x="850" y="262" width="8" height="8" fill="#6FD5C4"/>
+    <text x="872" y="272" font-size="16" fill="#E8E4D9">系统指令与安全策略</text>
+    <rect x="850" y="302" width="8" height="8" fill="#6FD5C4"/>
+    <text x="872" y="312" font-size="16" fill="#E8E4D9">当前任务状态与目标</text>
+    <rect x="850" y="342" width="8" height="8" fill="#6FD5C4"/>
+    <text x="872" y="352" font-size="16" fill="#E8E4D9">相关证据与必要历史</text>
+    <text x="850" y="408" font-size="14" fill="#8FA0AC">随任务阶段变化 · 每轮重新编译</text>
+    <text x="826" y="474" font-size="18" fill="#6B7280">不是全部历史,也不是最大填充</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">03 / 13</text>
+  </g>
+</svg>

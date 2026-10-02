@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <defs>
+    <marker id="arrowInk" orient="auto" markerWidth="10" markerHeight="8" refX="8.5" refY="4" viewBox="0 0 10 8">
+      <path d="M0 0L10 4L0 8Z" fill="#8A939E"/>
+    </marker>
+  </defs>
+
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">同一个模型,Context 不同,下一步就可能完全不同</text>
+  </g>
+
+  <g id="model-node" data-pptx-bounds="330 142 620 96">
+    <rect x="500" y="150" width="280" height="60" rx="8" fill="#1E2A32"/>
+    <text x="640" y="186" font-size="18" font-weight="bold" fill="#F4F1EA" text-anchor="middle">同一个模型 · 第 6 轮调用</text>
+    <line x1="336" y1="232" x2="552" y2="214" stroke="#8A939E" stroke-width="1.5" marker-end="url(#arrowInk)"/>
+    <line x1="944" y1="232" x2="728" y2="214" stroke="#8A939E" stroke-width="1.5" marker-end="url(#arrowInk)"/>
+  </g>
+
+  <g id="bad-context" data-pptx-bounds="60 244 560 300">
+    <rect x="60" y="248" width="560" height="292" rx="8" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <rect x="60" y="248" width="560" height="4" fill="#B45309"/>
+    <text x="84" y="290" font-size="14" font-weight="bold" fill="#B45309" letter-spacing="1">BAD CONTEXT · 坏上下文</text>
+    <text x="84" y="330" font-size="16" fill="#3A4148">Old hypothesis(已被否定)</text>
+    <text x="84" y="364" font-size="16" fill="#3A4148">500 行 shell log</text>
+    <text x="84" y="398" font-size="16" fill="#3A4148">Stale test result(过期测试结果)</text>
+    <text x="84" y="432" font-size="16" fill="#3A4148">整个无关文件全文</text>
+    <text x="84" y="466" font-size="16" fill="#3A4148">缺失当前 Git state</text>
+    <text x="84" y="512" font-size="14" fill="#6B7280">旧结论、噪声与缺失的当前状态混在一起</text>
+  </g>
+
+  <g id="good-context" data-pptx-bounds="660 244 560 300">
+    <rect x="660" y="248" width="560" height="292" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+    <rect x="660" y="248" width="560" height="4" fill="#15803D"/>
+    <text x="684" y="290" font-size="14" font-weight="bold" fill="#15803D" letter-spacing="1">GOOD CONTEXT · 好上下文</text>
+    <text x="684" y="330" font-size="16" fill="#1A1D1F">Goal(当前目标)</text>
+    <text x="684" y="364" font-size="16" fill="#1A1D1F">Policy(安全与仓库约束)</text>
+    <text x="684" y="398" font-size="16" fill="#1A1D1F">Current state(Git / dirty files)</text>
+    <text x="684" y="432" font-size="16" fill="#1A1D1F">Latest evidence(确认的 stack trace)</text>
+    <text x="684" y="466" font-size="16" fill="#1A1D1F">Relevant code + latest failure</text>
+    <text x="684" y="512" font-size="14" fill="#6B7280">目标、边界与最新证据构成充分工作集</text>
+  </g>
+
+  <line id="split-divider" data-pptx-role="decoration" x1="640" y1="252" x2="640" y2="536" stroke="#DDD9CE" stroke-width="1"/>
+
+  <g id="outcome-bad" data-pptx-bounds="60 560 560 62">
+    <rect x="60" y="566" width="560" height="52" rx="6" fill="#B45309" fill-opacity="0.08"/>
+    <use data-icon="tabler-outline/alert-triangle" x="80" y="578" width="24" height="24" fill="#B45309" stroke-width="2"/>
+    <text x="118" y="599" font-size="17" font-weight="bold" fill="#B45309">模型可能继续:修改已被排除的问题</text>
+  </g>
+
+  <g id="outcome-good" data-pptx-bounds="660 560 560 62">
+    <rect x="660" y="566" width="560" height="52" rx="6" fill="#15803D" fill-opacity="0.08"/>
+    <use data-icon="tabler-outline/check" x="680" y="578" width="24" height="24" fill="#15803D" stroke-width="2.5"/>
+    <text x="718" y="599" font-size="17" font-weight="bold" fill="#15803D">模型能够继续:针对当前证据修改并验证</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">10 / 13</text>
+  </g>
+</svg>

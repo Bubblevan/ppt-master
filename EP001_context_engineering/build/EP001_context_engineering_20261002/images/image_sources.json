@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "status": "Existing",
+      "acquire_via": "user",
+      "source": "NotebookLM prototype 上下文工程.pdf, page 1, left illustration crop (user-supplied)",
+      "license_tier": "no-attribution",
+      "note": "right text card excluded; in-block material labels kept as decorative illustration texture",
+      "filename": "hook_overloaded_context.png",
+      "path_under_images": "notebooklm_reference/hook_overloaded_context.png"
+    },
+    {
+      "status": "Existing",
+      "acquire_via": "user",
+      "source": "NotebookLM prototype 上下文工程.pdf, page 2, center illustration crop (user-supplied)",
+      "license_tier": "no-attribution",
+      "note": "all embedded text erased via gradient-preserving patches; all labels re-authored as native editable text",
+      "filename": "storage_working_set.png",
+      "path_under_images": "notebooklm_reference/storage_working_set.png"
+    },
+    {
+      "status": "Existing",
+      "acquire_via": "user",
+      "source": "NotebookLM prototype 上下文工程.pdf, page 3, valve-pipeline band crop, text-free (user-supplied)",
+      "license_tier": "no-attribution",
+      "note": "visual anchor only; all pipeline semantics remain native objects",
+      "filename": "context_compiler_machine.png",
+      "path_under_images": "notebooklm_reference/context_compiler_machine.png"
+    },
+    {
+      "status": "Existing",
+      "acquire_via": "user",
+      "source": "NotebookLM prototype 上下文工程.pdf, page 6, card 1 illustration (user-supplied)",
+      "license_tier": "no-attribution",
+      "note": "text-free region",
+      "filename": "failure_noise.png",
+      "path_under_images": "notebooklm_reference/failure_noise.png"
+    },
+    {
+      "status": "Existing",
+      "acquire_via": "user",
+      "source": "NotebookLM prototype 上下文工程.pdf, page 6, card 2 illustration (user-supplied)",
+      "license_tier": "no-attribution",
+      "note": "in-illustration speech bubbles (测试已通过/测试失败) retained; no native text overlap",
+      "filename": "failure_staleness.png",
+      "path_under_images": "notebooklm_reference/failure_staleness.png"
+    },
+    {
+      "status": "Existing",
+      "acquire_via": "user",
+      "source": "NotebookLM prototype 上下文工程.pdf, page 6, card 3 illustration (user-supplied)",
+      "license_tier": "no-attribution",
+      "note": "in-illustration labels (Malicious URL / SYSTEM PROMPT) retained as metaphor; no native text overlap",
+      "filename": "failure_authority.png",
+      "path_under_images": "notebooklm_reference/failure_authority.png"
+    },
+    {
+      "status": "Existing",
+      "acquire_via": "user",
+      "source": "NotebookLM prototype 上下文工程.pdf, page 7, history->machine flow crop (user-supplied)",
+      "license_tier": "no-attribution",
+      "note": "embedded stage labels erased; stage names re-authored as native text; magnifier with lossy-example text excluded",
+      "filename": "compaction_machine.png",
+      "path_under_images": "notebooklm_reference/compaction_machine.png"
+    }
+  ]
+}

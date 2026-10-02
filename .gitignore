@@ -189,3 +189,13 @@ projects/*
 skills/ppt-master/templates/brands/*/exports/
 skills/ppt-master/templates/decks/*/exports/
 skills/ppt-master/templates/layouts/*/exports/
+
+# local python venv (working environment, not part of the skill package)
+.venv/
+
+# EP001 workspace: version the ppt-master build sources/deliverables,
+# skip only regenerable render temp dirs (PyMuPDF pages, QA PNG renders)
+!EP001_context_engineering/build/
+EP001_context_engineering/build/_pages/
+EP001_context_engineering/build/qa_render/
+EP001_context_engineering/build/qa_render_hybrid/

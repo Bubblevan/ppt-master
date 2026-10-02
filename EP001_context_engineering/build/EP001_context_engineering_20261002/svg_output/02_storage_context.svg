@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">Context 不是数据库里"存着的一切"</text>
+  </g>
+
+  <g id="page-statement" data-pptx-bounds="60 148 1160 92">
+    <text x="60" y="186" font-size="28" fill="#3A4148">Storage 回答"系统知道什么";<tspan x="60" dy="42">Context Engineering 回答"模型这一刻应该看到什么"。</tspan></text>
+  </g>
+
+  <g id="storage-illustration" data-pptx-bounds="60 254 610 380">
+    <image href="../images/notebooklm_reference/storage_working_set.png" x="60" y="258" width="600" height="366" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="60" y="258" width="600" height="366" fill="none" stroke="#DDD9CE" stroke-width="1"/>
+    <g id="storage-shelf-labels" fill="#F4F1EA" font-size="13" font-weight="bold" text-anchor="middle">
+      <text x="154" y="604">Conversation Logs</text>
+      <text x="293" y="604">Memory</text>
+      <text x="426" y="604">RAG / Search Index</text>
+      <text x="555" y="604">Agent Checkpoints</text>
+    </g>
+    <g id="working-set-chip">
+      <rect x="400" y="266" width="258" height="30" rx="4" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+      <text x="529" y="286" font-size="13" font-weight="bold" fill="#0F766E" text-anchor="middle">MODEL-VISIBLE WORKING SET</text>
+    </g>
+  </g>
+
+  <g id="definition-storage" data-pptx-bounds="700 258 520 160">
+    <rect x="700" y="258" width="520" height="160" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/server" x="724" y="278" width="22" height="22" fill="#6B7280" stroke-width="2"/>
+    <text x="756" y="295" font-size="15" font-weight="bold" fill="#1A1D1F">STORAGE — 系统知道什么</text>
+    <text x="724" y="336" font-size="15" fill="#3A4148">对话日志、记忆、检索索引、状态与检查点都在;<tspan x="724" dy="28">数据库里存有一万段材料,不表示每轮都塞给模型。</tspan></text>
+  </g>
+
+  <g id="definition-ce" data-pptx-bounds="700 434 520 160">
+    <rect x="700" y="434" width="520" height="160" rx="6" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/filter" x="724" y="454" width="22" height="22" fill="#0F766E" stroke-width="2"/>
+    <text x="756" y="471" font-size="15" font-weight="bold" fill="#0F766E">CONTEXT ENGINEERING — 决定此刻看到什么</text>
+    <text x="724" y="512" font-size="15" fill="#3A4148">聚光灯每轮只照亮一处:上下文工程决定<tspan x="724" dy="28">哪些材料进入模型此刻的可见工作集。</tspan></text>
+  </g>
+
+  <g id="boundary-note" data-pptx-bounds="60 640 980 42">
+    <rect x="60" y="648" width="3" height="24" fill="#B45309"/>
+    <text x="78" y="667" font-size="18" fill="#6B7280">Memory / RAG / History 只是 Context 的候选来源,不是 Context 本身</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">02 / 13</text>
+  </g>
+</svg>

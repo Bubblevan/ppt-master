@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">"上下文越多越好"会怎么坏掉?</text>
+  </g>
+
+  <g id="failure-noise" data-pptx-bounds="60 150 360 460">
+    <rect x="60" y="150" width="360" height="460" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <rect x="60" y="150" width="360" height="4" fill="#5B6472"/>
+    <text x="84" y="192" font-size="18" font-family="Consolas" fill="#8A939E">01</text>
+    <text x="122" y="192" font-size="20" font-weight="bold" fill="#1A1D1F">NOISE · 噪声</text>
+    <image href="../images/notebooklm_reference/failure_noise.png" x="84" y="206" width="312" height="289" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="84" y="206" width="312" height="289" fill="none" stroke="#E4E1D8" stroke-width="1"/>
+    <text x="84" y="528" font-size="15" fill="#3A4148">无关信息抢占注意力与预算,<tspan x="84" dy="26">关键约束被挤出本轮窗口。</tspan></text>
+    <text x="84" y="588" font-size="15" font-weight="bold" fill="#5B6472">后果:更慢、更贵,且更容易遗漏</text>
+  </g>
+
+  <g id="failure-staleness" data-pptx-bounds="460 150 360 460">
+    <rect x="460" y="150" width="360" height="460" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <rect x="460" y="150" width="360" height="4" fill="#B45309"/>
+    <text x="484" y="192" font-size="18" font-family="Consolas" fill="#8A939E">02</text>
+    <text x="522" y="192" font-size="20" font-weight="bold" fill="#1A1D1F">STALENESS · 过期冲突</text>
+    <image href="../images/notebooklm_reference/failure_staleness.png" x="484" y="206" width="312" height="289" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="484" y="206" width="312" height="289" fill="none" stroke="#E4E1D8" stroke-width="1"/>
+    <text x="484" y="528" font-size="15" fill="#3A4148">旧状态与当前事实同时存在,<tspan x="484" dy="26">已否定的假设会重新"复活"。</tspan></text>
+    <text x="484" y="588" font-size="15" font-weight="bold" fill="#B45309">后果:基于过期状态采取行动</text>
+  </g>
+
+  <g id="failure-authority" data-pptx-bounds="860 150 360 460">
+    <rect x="860" y="150" width="360" height="460" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <rect x="860" y="150" width="360" height="4" fill="#B91C1C"/>
+    <text x="884" y="192" font-size="18" font-family="Consolas" fill="#8A939E">03</text>
+    <text x="922" y="192" font-size="20" font-weight="bold" fill="#1A1D1F">AUTHORITY · 来源混淆</text>
+    <image href="../images/notebooklm_reference/failure_authority.png" x="884" y="206" width="312" height="289" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="884" y="206" width="312" height="289" fill="none" stroke="#E4E1D8" stroke-width="1"/>
+    <text x="884" y="528" font-size="15" fill="#3A4148">注入文本被当成指令执行,<tspan x="884" dy="26">无来源信息参与关键决策。</tspan></text>
+    <text x="884" y="588" font-size="15" font-weight="bold" fill="#B91C1C">后果:越权动作或错误结论</text>
+  </g>
+
+  <g id="takeaway-line" data-pptx-bounds="60 626 1000 40">
+    <text x="640" y="652" font-size="16" fill="#6B7280" text-anchor="middle">三者常常同时发生 — 而它们都不是靠"再塞进更多信息"能解决的</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">11 / 13</text>
+  </g>
+</svg>

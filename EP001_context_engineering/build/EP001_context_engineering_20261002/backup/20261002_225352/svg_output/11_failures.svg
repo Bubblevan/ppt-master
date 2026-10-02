@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">"上下文越多越好"会怎么坏掉?</text>
+  </g>
+
+  <g id="failure-noise" data-pptx-bounds="60 160 360 450">
+    <rect x="60" y="168" width="360" height="434" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <rect x="60" y="168" width="360" height="4" fill="#5B6472"/>
+    <text x="84" y="222" font-size="18" font-family="Consolas" fill="#8A939E">01</text>
+    <text x="122" y="222" font-size="20" font-weight="bold" fill="#1A1D1F">NOISE · 噪声</text>
+    <text x="84" y="262" font-size="15" fill="#3A4148">无关信息抢占注意力与预算,<tspan x="84" dy="26">关键信号被稀释。</tspan></text>
+    <text x="84" y="336" font-size="12" font-weight="bold" fill="#98A1AB" letter-spacing="1">表现</text>
+    <rect x="84" y="352" width="8" height="8" fill="#5B6472"/>
+    <text x="104" y="361" font-size="14" fill="#3A4148">检索结果相关排序被拉低</text>
+    <rect x="84" y="384" width="8" height="8" fill="#5B6472"/>
+    <text x="104" y="393" font-size="14" fill="#3A4148">关键约束被挤出本轮窗口</text>
+    <rect x="84" y="416" width="8" height="8" fill="#5B6472"/>
+    <text x="104" y="425" font-size="14" fill="#3A4148">每轮成本持续上涨</text>
+    <text x="84" y="516" font-size="12" font-weight="bold" fill="#98A1AB" letter-spacing="1">后果</text>
+    <text x="84" y="544" font-size="15" font-weight="bold" fill="#5B6472">更慢、更贵,且更容易遗漏</text>
+  </g>
+
+  <g id="failure-staleness" data-pptx-bounds="460 160 360 450">
+    <rect x="460" y="168" width="360" height="434" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <rect x="460" y="168" width="360" height="4" fill="#B45309"/>
+    <text x="484" y="222" font-size="18" font-family="Consolas" fill="#8A939E">02</text>
+    <text x="522" y="222" font-size="20" font-weight="bold" fill="#1A1D1F">STALENESS · 过期冲突</text>
+    <text x="484" y="262" font-size="15" fill="#3A4148">旧状态与当前事实同时存在,<tspan x="484" dy="26">模型难以分辨哪个有效。</tspan></text>
+    <text x="484" y="336" font-size="12" font-weight="bold" fill="#98A1AB" letter-spacing="1">表现</text>
+    <rect x="484" y="352" width="8" height="8" fill="#B45309"/>
+    <text x="504" y="361" font-size="14" fill="#3A4148">新旧测试结果并存</text>
+    <rect x="484" y="384" width="8" height="8" fill="#B45309"/>
+    <text x="504" y="393" font-size="14" fill="#3A4148">已否定的假设"复活"</text>
+    <rect x="484" y="416" width="8" height="8" fill="#B45309"/>
+    <text x="504" y="425" font-size="14" fill="#3A4148">条件句被读成确定结论</text>
+    <text x="484" y="516" font-size="12" font-weight="bold" fill="#98A1AB" letter-spacing="1">后果</text>
+    <text x="484" y="544" font-size="15" font-weight="bold" fill="#B45309">基于过期状态采取行动</text>
+  </g>
+
+  <g id="failure-authority" data-pptx-bounds="860 160 360 450">
+    <rect x="860" y="168" width="360" height="434" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+    <rect x="860" y="168" width="360" height="4" fill="#B91C1C"/>
+    <text x="884" y="222" font-size="18" font-family="Consolas" fill="#8A939E">03</text>
+    <text x="922" y="222" font-size="20" font-weight="bold" fill="#1A1D1F">AUTHORITY · 来源混淆</text>
+    <text x="884" y="262" font-size="15" fill="#3A4148">无法区分指令、观察、不可信内容<tspan x="884" dy="26">与已经失效的信息。</tspan></text>
+    <text x="884" y="336" font-size="12" font-weight="bold" fill="#98A1AB" letter-spacing="1">表现</text>
+    <rect x="884" y="352" width="8" height="8" fill="#B91C1C"/>
+    <text x="904" y="361" font-size="14" fill="#3A4148">注入文本被当成指令执行</text>
+    <rect x="884" y="384" width="8" height="8" fill="#B91C1C"/>
+    <text x="904" y="393" font-size="14" fill="#3A4148">未验证摘要被当成事实</text>
+    <rect x="884" y="416" width="8" height="8" fill="#B91C1C"/>
+    <text x="904" y="425" font-size="14" fill="#3A4148">无来源信息参与关键决策</text>
+    <text x="884" y="516" font-size="12" font-weight="bold" fill="#98A1AB" letter-spacing="1">后果</text>
+    <text x="884" y="544" font-size="15" font-weight="bold" fill="#B91C1C">越权动作或错误结论</text>
+  </g>
+
+  <g id="takeaway-line" data-pptx-bounds="60 630 1000 40">
+    <text x="640" y="658" font-size="16" fill="#6B7280" text-anchor="middle">三者常常同时发生 — 而它们都不是靠"再塞进更多信息"能解决的</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">11 / 13</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">Context 是一场有限预算下的资源分配</text>
+  </g>
+
+  <g id="budget-bar" data-pptx-bounds="80 190 1140 166">
+    <text x="332" y="224" font-size="14" fill="#6B7280" text-anchor="middle">固定 · 刚性</text>
+    <text x="810" y="224" font-size="14" font-weight="bold" fill="#0F766E" text-anchor="middle">DYNAMIC CONTEXT · 弹性 · 内部竞争</text>
+    <text x="1120" y="224" font-size="14" fill="#6B7280" text-anchor="middle">预留</text>
+    <g id="budget-segments">
+      <rect x="100" y="240" width="140" height="72" fill="#1E2A32"/>
+      <rect x="242" y="240" width="150" height="72" fill="#3A4148"/>
+      <rect x="394" y="240" width="170" height="72" fill="#5B6472"/>
+      <rect x="566" y="240" width="488" height="72" fill="#0F766E" fill-opacity="0.14" stroke="#0F766E" stroke-width="1.5"/>
+      <rect x="1056" y="240" width="164" height="72" fill="#3A4148"/>
+    </g>
+    <text x="170" y="282" font-size="14" font-weight="bold" fill="#F4F1EA" text-anchor="middle">SYSTEM</text>
+    <text x="317" y="282" font-size="14" font-weight="bold" fill="#F4F1EA" text-anchor="middle">TASK</text>
+    <text x="479" y="282" font-size="14" font-weight="bold" fill="#F4F1EA" text-anchor="middle">TOOLS</text>
+    <text x="1138" y="282" font-size="14" font-weight="bold" fill="#F4F1EA" text-anchor="middle">OUTPUT RESERVE</text>
+    <g id="budget-competition">
+      <line x1="664" y1="248" x2="664" y2="304" stroke="#0F766E" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="760" y1="248" x2="760" y2="304" stroke="#0F766E" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="858" y1="248" x2="858" y2="304" stroke="#0F766E" stroke-width="1" stroke-dasharray="3,3"/>
+      <line x1="956" y1="248" x2="956" y2="304" stroke="#0F766E" stroke-width="1" stroke-dasharray="3,3"/>
+      <text x="614" y="282" font-size="13" fill="#0F766E" text-anchor="middle">History</text>
+      <text x="710" y="282" font-size="13" fill="#0F766E" text-anchor="middle">Evidence</text>
+      <text x="808" y="282" font-size="13" fill="#0F766E" text-anchor="middle">Code</text>
+      <text x="906" y="282" font-size="13" fill="#0F766E" text-anchor="middle">Tool Results</text>
+      <text x="1002" y="282" font-size="13" fill="#0F766E" text-anchor="middle">Memory</text>
+    </g>
+    <text x="100" y="340" font-size="14" fill="#6B7280">Dynamic Context 内部:谁进谁出、各占多少 — 每轮按任务阶段重新分配</text>
+  </g>
+
+  <g id="budget-formula" data-pptx-bounds="80 386 1140 96">
+    <rect x="100" y="402" width="4" height="64" fill="#0F766E"/>
+    <text x="128" y="444" font-size="26" font-family="Consolas" fill="#1A1D1F">D_budget = W − S − U − T − R</text>
+    <text x="560" y="428" font-size="14" fill="#6B7280">W 总窗口 · S 系统指令 · U 用户输入 · T 工具契约 · R 输出与推理预留</text>
+    <text x="560" y="452" font-size="14" fill="#B45309">工程抽象,用于解释预算关系 — 不是行业标准公式</text>
+  </g>
+
+  <g id="takeaway-band" data-pptx-bounds="80 522 1140 58" fill="#0F766E">
+    <rect x="80" y="524" width="1140" height="54" fill-opacity="0.07"/>
+    <text x="104" y="559" font-size="24" font-weight="bold">Window size 是上限;useful context 是选择结果。</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">07 / 13</text>
+  </g>
+</svg>

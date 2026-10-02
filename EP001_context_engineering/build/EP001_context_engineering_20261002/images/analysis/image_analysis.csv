@@ -1,0 +1,8 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,SourceDisplayRatio,RatioSource,Format,HasTransparentPixels,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category
+1,compaction_machine.png,1422,650,2.19,2.19,,native,PNG,False,1,,bitmap,True,True,562.7,Ultra-wide
+2,context_compiler_machine.png,1080,256,4.22,4.22,,native,PNG,False,1,,bitmap,True,True,322.0,Ultra-wide
+3,failure_authority.png,748,690,1.08,1.08,,native,PNG,False,1,,bitmap,True,True,338.5,Near square
+4,failure_noise.png,748,690,1.08,1.08,,native,PNG,False,1,,bitmap,True,True,540.0,Near square
+5,failure_staleness.png,748,690,1.08,1.08,,native,PNG,False,1,,bitmap,True,True,295.2,Near square
+6,hook_overloaded_context.png,1650,1516,1.09,1.09,,native,PNG,False,1,,bitmap,True,True,2179.4,Near square
+7,storage_working_set.png,1630,992,1.64,1.64,,native,PNG,False,1,,bitmap,True,True,760.4,Wide landscape

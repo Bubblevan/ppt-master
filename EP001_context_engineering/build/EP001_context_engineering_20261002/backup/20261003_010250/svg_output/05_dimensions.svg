@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei" data-pptx-page-role="content">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7F6F2"/>
+
+  <g id="page-kicker" data-pptx-bounds="60 30 1160 36">
+    <rect x="60" y="40" width="28" height="3" fill="#0F766E"/>
+    <text x="100" y="50" font-size="14" font-weight="bold" fill="#8FA0AC" letter-spacing="1">EP001 · CONTEXT ENGINEERING</text>
+    <line x1="60" y1="62" x2="1220" y2="62" stroke="#DDD9CE" stroke-width="1"/>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="60 76 1160 60">
+    <text x="60" y="118" font-size="40" font-weight="bold" fill="#1A1D1F">Context Selection 不是一个相关性排序问题</text>
+  </g>
+
+  <g id="selection-pipeline" data-pptx-bounds="60 150 1160 186">
+    <line x1="184" y1="240" x2="1076" y2="240" stroke="#8A939E" stroke-width="1.5" stroke-dasharray="8,4"/>
+    <g id="candidate-chip">
+      <rect x="60" y="195" width="120" height="90" rx="4" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+      <use data-icon="tabler-outline/file-text" x="108" y="212" width="24" height="24" fill="#8A939E" stroke-width="2"/>
+      <text x="120" y="266" font-size="14" fill="#3A4148" text-anchor="middle">候选材料</text>
+    </g>
+    <g id="gate-relevance">
+      <rect x="220" y="158" width="160" height="170" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+      <text x="236" y="192" font-size="18" font-family="Consolas" fill="#0F766E">01</text>
+      <text x="266" y="192" font-size="15" font-weight="bold" fill="#1A1D1F">RELEVANCE</text>
+      <text x="236" y="226" font-size="13" fill="#5B6472">对当前决策<tspan x="236" dy="22">有直接关联</tspan></text>
+    </g>
+    <g id="gate-authority">
+      <rect x="394" y="158" width="160" height="170" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+      <text x="410" y="192" font-size="18" font-family="Consolas" fill="#0F766E">02</text>
+      <text x="440" y="192" font-size="15" font-weight="bold" fill="#1A1D1F">AUTHORITY</text>
+      <text x="410" y="226" font-size="13" fill="#5B6472">来源是否有权<tspan x="410" dy="22">被这样使用</tspan></text>
+    </g>
+    <g id="gate-freshness">
+      <rect x="568" y="158" width="160" height="170" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+      <text x="584" y="192" font-size="18" font-family="Consolas" fill="#0F766E">03</text>
+      <text x="614" y="192" font-size="15" font-weight="bold" fill="#1A1D1F">FRESHNESS</text>
+      <text x="584" y="226" font-size="13" fill="#5B6472">状态是否<tspan x="584" dy="22">仍然有效</tspan></text>
+    </g>
+    <g id="gate-permission">
+      <rect x="742" y="158" width="160" height="170" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+      <text x="758" y="192" font-size="18" font-family="Consolas" fill="#0F766E">04</text>
+      <text x="788" y="192" font-size="15" font-weight="bold" fill="#1A1D1F">PERMISSION</text>
+      <text x="758" y="226" font-size="13" fill="#5B6472">是否越权<tspan x="758" dy="22">或已被撤权</tspan></text>
+    </g>
+    <g id="gate-cost">
+      <rect x="916" y="158" width="160" height="170" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1.5"/>
+      <text x="932" y="192" font-size="18" font-family="Consolas" fill="#0F766E">05</text>
+      <text x="962" y="192" font-size="15" font-weight="bold" fill="#1A1D1F">TOKEN COST</text>
+      <text x="932" y="226" font-size="13" fill="#5B6472">值得占用<tspan x="932" dy="22">多少预算</tspan></text>
+    </g>
+    <g id="admit-out">
+      <rect x="1090" y="195" width="130" height="90" rx="4" fill="#0F766E"/>
+      <text x="1155" y="232" font-size="14" font-weight="bold" fill="#EAF6F3" text-anchor="middle">进入本轮</text>
+      <text x="1155" y="258" font-size="13" font-weight="bold" fill="#BDE6DD" text-anchor="middle">WORKING SET</text>
+    </g>
+  </g>
+
+  <g id="conflict-section" data-pptx-bounds="60 366 1160 244">
+    <text x="60" y="398" font-size="20" font-weight="bold" fill="#1A1D1F">这些维度会冲突 — 单一相关性排序不够</text>
+    <g id="conflict-web">
+      <rect x="60" y="420" width="275" height="130" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <text x="78" y="458" font-size="16" fill="#1A1D1F">网页内容非常相关,<tspan x="78" dy="26">但它不是系统指令</tspan></text>
+      <text x="78" y="530" font-size="14" font-weight="bold" fill="#0F766E">Relevance ✕ Authority</text>
+    </g>
+    <g id="conflict-history">
+      <rect x="355" y="420" width="275" height="130" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <text x="373" y="458" font-size="16" fill="#1A1D1F">历史消息高度相关,<tspan x="373" dy="26">但状态已经过期</tspan></text>
+      <text x="373" y="530" font-size="14" font-weight="bold" fill="#0F766E">Relevance ✕ Freshness</text>
+    </g>
+    <g id="conflict-code">
+      <rect x="650" y="420" width="275" height="130" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <text x="668" y="458" font-size="16" fill="#1A1D1F">一段代码很权威,<tspan x="668" dy="26">但与当前 Bug 无关</tspan></text>
+      <text x="668" y="530" font-size="14" font-weight="bold" fill="#0F766E">Authority ✕ Relevance</text>
+    </g>
+    <g id="conflict-toolresult">
+      <rect x="945" y="420" width="275" height="130" rx="6" fill="#FFFFFF" stroke="#C9CFD6" stroke-width="1"/>
+      <text x="963" y="458" font-size="16" fill="#1A1D1F">Tool Result 很新,<tspan x="963" dy="26">但权限已经撤销</tspan></text>
+      <text x="963" y="530" font-size="14" font-weight="bold" fill="#0F766E">Freshness ✕ Permission</text>
+    </g>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1120 668 100 32">
+    <text x="1220" y="690" font-size="14" fill="#98A1AB" text-anchor="end">05 / 13</text>
+  </g>
+</svg>
